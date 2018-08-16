@@ -6,8 +6,8 @@ public class Ejercicio {
 		int longitud = 50;
 		
 		System.out.println("Primos:");
-		for (int i = 0; i < longitud; i++) {
-			if (esPrimo(longitud)) {
+		for (int i = 2; i < longitud; i++) {
+			if (esPrimo(i)) {
 				System.out.println(i);
 				
 			}
