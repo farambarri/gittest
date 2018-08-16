@@ -7,7 +7,10 @@ public class Ejercicio {
 		
 		System.out.println("Primos:");
 		for (int i = 0; i < longitud; i++) {
-			if ()
+			if (esPrimo(longitud)) {
+				System.out.println(i);
+				
+			}
 		}
 		
 		
