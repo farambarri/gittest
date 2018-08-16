@@ -3,10 +3,25 @@ package git.ejercicio;
 public class Ejercicio {
 
 	public static void main(String[] args) {
-		System.out.println("Vamos a probar algo");
+		int longitud = 50;
+		
+		System.out.println("Primos:");
 		for (int i = 0; i < longitud; i++) {
-			
+			if ()
 		}
+		
+		
 	}
+	
+	public static boolean esPrimo(int numero){
+		  int contador = 2;
+		  boolean primo=true;
+		  while ((primo) && (contador!=numero)){
+		    if (numero % contador == 0)
+		      primo = false;
+		    contador++;
+		  }
+		  return primo;
+		}
 
 }
